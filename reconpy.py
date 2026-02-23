@@ -57,7 +57,8 @@ def scan_port(ip , port):
     sock.close()
 
 print(BANNER)
-print(f"[*][*] Start Scanning {ip_addr}")
+print(f"[*][*] Starting RconPy Scanning v1.0 ( https://fikri.42web.io ) ")
+
 
 print(f"{Y}[*] Target IP: {ip_addr}{W}")
 def start_scanning(ip , port):
@@ -94,6 +95,7 @@ if arg.save and result_file:
 print(f'{G}Scan completed successfully!!{W}')
 end_time = time.time()
 print(f"{Y}Scan finished in {round(end_time - start_time, 2)} seconds{W}")
+
 
 
 ## reconPy v1.0 Made By  fikri Mohamed 
